@@ -1,0 +1,166 @@
+body{
+    background-color: cadetblue; /*rgb(95,158,160)*/
+}
+
+
+main{
+    position: relative;
+    top: 1em;
+}
+
+
+.voltar{ 
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.voltar:hover{    
+    color:darkblue;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #333;
+    margin-top: -0.5em;
+}
+
+.nav-link{
+    color:#333;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(0,0,0,0);
+}
+
+.nav-link:hover, .dropdown-item:hover{
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.nav-link.active, .dropdown-item.active{
+    font-weight: bold;
+    background-color: cadetblue;/* #000056; */
+    border-radius: 10px;
+    color: yellow;
+}
+
+
+.dropdown-menu{
+    background-color: rgb(0,0,0,0.5);
+    color: white;
+}
+
+.dropdown-item, .p-footer{
+    color: white;
+}
+
+.f-footer{
+    margin-top: 18px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.p-conteudo{
+    font-size: 22px;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card-carousel-tecnicas{
+    text-align: justify;
+    background-color: cadetblue;
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+ .destaque{
+    font-weight: bold;
+}
+
+.c-cite a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.img-conteudo{
+    margin-left: 1em;
+    width: 100%;
+    height: auto;
+    border: 15px inset gray;
+}
+
+.img-final-conteudo{
+    width: 80%; /*350*/
+    height: 100%; /*350*/
+    padding: 5px;
+}
+
+.row{
+    padding: 10px;
+}
+
+.azul{
+    background-color: blue;
+    color: white;
+}
+
+.branco{
+    background-color: black;
+    color:white;
+}
+.vermelho{
+    background-color: red;
+    color: white;
+}
+.verde{
+    background-color: green;
+    color: white;
+}
+.amarelo{
+    background-color: yellow;
+    color: black;
+}
+
+.h3-index{
+    color:white;
+}
+
+.h2-conteudo{
+    font-size: 32px;
+    color: darkblue;
+    text-align: center;
+}
+
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+h1.display-4{
+    color: white;
+    text-align: center;
+    background-color: #333;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    margin-top:1.9em;
+}
+
+h5{
+    width: 100%;
+    color: rgb(0,0,75);
+    margin-top: 1em;
+    margin-left: 10%; 
+    padding-right: 100px;
+}
+

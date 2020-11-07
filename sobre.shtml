@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+        <title>Arte em Vidro</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+<body>
+
+    <!-- #include file=“cabecalho.html”  -->
+    <header>
+        <div class="container-text-center">
+                    <h1 class="display-4">ARTE EM VIDRO</h1>
+                      <!-- MENU -->
+                      <nav class="navbar navbar-expand-lg navbar-dark"> <!--bg-dark" -->
+                        <a class="navbar-brand" style="color:cadetblue; font-weight: bold;" href="index.shtml">Murano</a> <!--navbar-light-->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.shtml" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="historia.shtml" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">História</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'"id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Produção
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="prod-materias-primas.shtml" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Matérias-primas</a>
+                                        <a class="dropdown-item" href="prod-ferramentas.shtml" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Ferramentas</a>
+                                        <a class="dropdown-item" href="prod-etapas.shtml" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Etapas</a>
+                                        <a class="dropdown-item" href="prod-tecnicas.shtml" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Técnicas</a>
+                                    </div> <!--fim dropdown-menu-->
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="artes-finais.shtml" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Artes finais</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="sobre.shtml" onMouseOver="this.style.color='yellow'" style="color:yellow">Sobre</a>
+                                </li>
+                          </ul> <!-- fim navbar-nav mr-auto -->
+                        </div> <!--fim collapse navbar-collapse-->
+                      </nav>
+        </div> <!-- fim container-text-center -->
+    </header>
+
+    <main>
+        <div class="container"> 
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src=./img/sobre1.jpg style="width:100%; height:auto">
+                    </div> <!--fim col-md-4-->
+
+                    <div class="col-lg-4"> 
+                            <h2 class="h2-conteudo">Arte em Vidro</h2>
+                            <p class="p-conteudo" style="font-weight: bold; text-align:center; padding-top:20px">
+                                Mostrar como são feitas peças em vidro.<br>
+                                <span style="font-style: italic;">Carmen Cabral</span>
+                             </p>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <img src=./img/sobre3.jpg style="width:100%; height:auto">
+                    </div>
+                </div> <!--fim row-->
+        </div> <!--fim container -->
+    </main>
+
+    <footer class="bg-dark f-footer">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="p-footer">
+                            &copy; Carmen - Todos os direitos reservados - 2020 
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
