@@ -16,7 +16,7 @@
                     <h1 class="display-4">ARTE EM VIDRO</h1>
                       <!-- MENU -->
                       <nav class="navbar navbar-expand-lg navbar-dark"> <!--bg-dark" -->
-                        <a class="navbar-brand" style="color:cadetblue; font-weight: bold;" href="index.shtml">Murano</a> <!--navbar-light-->
+                        <a class="navbar-brand" style="color:cadetblue; font-weight: bold;" href="index.html">Murano</a> <!--navbar-light-->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
@@ -24,7 +24,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.shtml" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="index.html" onMouseOver="this.style.color='yellow'" onMouseOut="this.style.color='white'">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 
                                 <li class="nav-item">
